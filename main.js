@@ -13,7 +13,11 @@ for (key in scoures) {
 
 
 //for of
-var countries = ["Japan","America","Germany","France","Spain","Canada"];
+var countries = [
+  {"Region": "Asia","Coutry": "Japan",},
+  {"Region": "North America","Coutry": "America",},
+  {"Region": "Europe","Coutry": "Germany",},
+];
 for (country of countries) {
   console.log(country);
 };
