@@ -8,7 +8,7 @@ for (var i = 0; i < 6; i++) {
 //for in
 var scoures = {"国語": 75,"数学": 70,"英語": 80};
 for (key in scoures) {
-  console.log(key);
+  console.log(scoures[key]);
 }
 
 
